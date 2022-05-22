@@ -1,0 +1,49 @@
+body{
+    background-color: beige;
+}
+.container{
+    text-align: center;
+}
+.header{
+    color:deeppink;
+}
+#input{
+width:300px;
+border: 2px solid lightgray;
+border-radius: 3px;
+margin: 8px 0;
+outline: none;
+padding: 4px;
+}
+
+.addbtn{
+    font-family: Helvetica;
+    font-size: medium;
+    width: 70px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    border: 2px solid lightblue;
+    transition: background-color 2s;
+}
+.addbtn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+
+li{
+    width: 400px;
+    background: #f5f5f5;
+    height: 5px;
+    position: relative;
+    line-height: 7px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 7px;
+    display: block;
+    box-shadow: -2px 2px 2px skyblue;
+    padding: 14px ;  
+} 
+
+
